@@ -28,7 +28,7 @@ module.exports = (env, argv) => {
     },
     devtool: isProduction ? undefined : 'eval-source-map',
     devServer: {
-      contentBase: './dist',
+      open: true,
       port: 3000,
     },
   };
